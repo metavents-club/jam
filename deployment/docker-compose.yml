@@ -41,7 +41,7 @@ services:
       - traefik.enable=true
     profiles: [ "metrics" ]
   ui:
-    image: ../ui
+    build: ../ui
     restart: always
     environment:
       - JAM_HOST
