@@ -229,7 +229,7 @@ app.use(async (req, res) => {
 
 const pantryApiPrefix = `${urls.pantry}/api/v1/rooms`;
 const defaultMetaInfo = {
-  ogTitle: 'Jam',
+  ogTitle: 'Metavents',
   ogDescription: 'Join this audio room',
   ogUrl: urls.jam,
   ogImage: `${urls.jam}/img/jam-app-icon.jpg`,
