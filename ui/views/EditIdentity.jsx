@@ -145,12 +145,12 @@ export default function EditIdentity({close}) {
                 'https://twitter.com/intent/tweet?text=' +
                 encodeURI('did:i:') +
                 id +
-                '%0a%0aThis is my public key on 🍞 Jam%0a%0a(@jam_systems // https://jam.systems)'
+                '%0a%0aThis is my public key on Metavents!'
               }
               target="_blank"
               rel="noreferrer"
             >
-              Tweet your Jam public key
+              Tweet your Metavents public key
             </a>
             <br />
             to verify your twitter account
