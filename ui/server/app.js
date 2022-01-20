@@ -97,11 +97,11 @@ app.use(async (req, res) => {
     let apiResponse = await result.json();
     if (apiResponse.ok) {
       console.log(apiResponse);
-      return res.send('Jam was successfully added to your workspace.');
+      return res.send('Metavents was successfully added to your workspace.');
     } else {
       console.log(apiResponse);
       return res.send(
-        'Jam was not added to your workspace, please try again later.'
+        'Metavents was not added to your workspace, please try again later.'
       );
     }
   }
@@ -132,7 +132,7 @@ app.use(async (req, res) => {
     const calendar = ical({
       domain: urls.jam,
       name: metaInfo.ogTitle,
-      prodId: {company: 'Jam', product: 'Jam'},
+      prodId: {company: 'Metavents', product: 'Metavents'},
       timezone: metaInfo.schedule?.timezone,
     });
 
